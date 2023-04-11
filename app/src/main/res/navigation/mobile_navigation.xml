@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_mealcategories">
+    app:startDestination="@+id/loginFragment">
 
     <fragment
         android:id="@+id/navigation_mealcategories"
@@ -49,4 +49,13 @@
         android:name="com.example.mealdbapi.ui.ingredients.ingredientsDetails.IngredientsDetailsFragment"
         android:label="Meals with chosen Ingredients"
         tools:layout="@layout/fragment_ingredients_details" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mealdbapi.ui.login.LoginFragment"
+        android:label="Login or Register"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_mealcategories"
+            app:destination="@id/navigation_mealcategories" />
+    </fragment>
 </navigation>
