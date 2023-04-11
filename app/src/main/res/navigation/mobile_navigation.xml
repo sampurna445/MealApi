@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mealcategories">
+
+    <fragment
+        android:id="@+id/navigation_mealcategories"
+        android:name="com.example.mealdbapi.ui.mealcategories.MealcategoriesFragment"
+        android:label="Meal Categories"
+        tools:layout="@layout/fragment_mealcategories" >
+        <action
+            android:id="@+id/action_navigation_mealcategories_to_mealcategoriesDetails"
+            app:destination="@id/mealcategoriesDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_areas"
+        android:name="com.example.mealdbapi.ui.areas.AreasFragment"
+        android:label="Areas"
+        tools:layout="@layout/fragment_areas" >
+        <action
+            android:id="@+id/action_navigation_areas_to_areasDetailsFragment"
+            app:destination="@id/areasDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_ingredients"
+        android:name="com.example.mealdbapi.ui.ingredients.IngredientsFragment"
+        android:label="Ingredients"
+        tools:layout="@layout/fragment_ingredients" >
+        <action
+            android:id="@+id/action_navigation_ingredients_to_ingredientsDetailsFragment"
+            app:destination="@id/ingredientsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealcategoriesDetailsFragment"
+        android:name="com.example.mealdbapi.ui.mealcategories.mealcategoriesDetails.MealcategoriesDetails"
+        android:label="Chosen Meals "
+        tools:layout="@layout/fragment_mealcategories_details" />
+    <fragment
+        android:id="@+id/areasDetailsFragment"
+        android:name="com.example.mealdbapi.ui.areas.areasDetails.AreasDetailsFragment"
+        android:label="Cusines"
+        tools:layout="@layout/fragment_areas_details" />
+    <fragment
+        android:id="@+id/ingredientsDetailsFragment"
+        android:name="com.example.mealdbapi.ui.ingredients.ingredientsDetails.IngredientsDetailsFragment"
+        android:label="Meals with chosen Ingredients"
+        tools:layout="@layout/fragment_ingredients_details" />
+</navigation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/heading_ingredientId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/id"
+            android:textColor="@color/neon_pink"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Something here"
+            />
+
+        <TextView
+            android:id="@+id/heading_ingredientName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/meal_ingredient"
+            android:textStyle="bold"
+            android:textColor="@color/neon_pink"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Something here" />
+
+
+
+        <TextView
+            android:id="@+id/ingredientsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:maxLength="10"
+            android:textAlignment="center"
+            android:textColor="@color/baby_blue"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading_ingredientId"
+            tools:text="Something here" />
+
+        <TextView
+            android:id="@+id/ingredientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:maxLength="10"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading_ingredientName"
+            tools:text="Something here"
+            android:textStyle="bold"
+            android:textColor="@color/baby_blue"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

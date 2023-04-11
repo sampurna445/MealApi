@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MealDbAPI</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="meal_ingredient">Meal Ingredient:</string>
+    <string name="id">Id</string>
+    <string name="cusine">Cusine</string>
+    <string name="cusineColon">Cusine:</string>
+    <string name="meal_category">Meal Category:</string>
+    <string name="meal">Meal</string>
+    <string name="meal_id">Meal Id</string>
+    <string name="cuisine">Cuisine</string>
+</resources>
