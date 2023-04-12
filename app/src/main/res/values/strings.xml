@@ -22,4 +22,11 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">673967858072238</string>
+    <string name="fb_login_protocol_scheme">fb673967858072238</string>
+    <string name="facebook_client_token">1658eca5d41c72311b77017fcd643665</string>
+
 </resources>

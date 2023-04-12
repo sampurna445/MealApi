@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "440414299404",
+    "project_id": "mealdbapp",
+    "storage_bucket": "mealdbapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440414299404:android:be0c845a6c9d1700ca5529",
+        "android_client_info": {
+          "package_name": "com.example.mealdbapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440414299404-gik7o7sk6qq9f57hv788r9l0rn86bi0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjnJTCpD2RzF_OoiIsFfFAkThmEOMyiLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440414299404-gik7o7sk6qq9f57hv788r9l0rn86bi0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440414299404:android:8434ea114977b228ca5529",
+        "android_client_info": {
+          "package_name": "com.example.mealdbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440414299404-gik7o7sk6qq9f57hv788r9l0rn86bi0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjnJTCpD2RzF_OoiIsFfFAkThmEOMyiLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440414299404-gik7o7sk6qq9f57hv788r9l0rn86bi0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
